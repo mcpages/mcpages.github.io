@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>快速开始 | 开发手册</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="mc-ui 网站快速成型工具">
+    
+    <link rel="preload" href="/assets/css/0.styles.3b597ec1.css" as="style"><link rel="preload" href="/assets/js/app.9828c174.js" as="script"><link rel="preload" href="/assets/js/3.a7b0917f.js" as="script"><link rel="preload" href="/assets/js/2.67602196.js" as="script"><link rel="preload" href="/assets/js/12.6ac0097d.js" as="script"><link rel="prefetch" href="/assets/js/10.7f1b01ac.js"><link rel="prefetch" href="/assets/js/11.2003b1bf.js"><link rel="prefetch" href="/assets/js/13.59d1171f.js"><link rel="prefetch" href="/assets/js/14.c873d78e.js"><link rel="prefetch" href="/assets/js/15.f022dbcc.js"><link rel="prefetch" href="/assets/js/16.91c4f114.js"><link rel="prefetch" href="/assets/js/17.59786baa.js"><link rel="prefetch" href="/assets/js/18.fc9e6949.js"><link rel="prefetch" href="/assets/js/19.1eae8e0f.js"><link rel="prefetch" href="/assets/js/20.b2e5353c.js"><link rel="prefetch" href="/assets/js/21.362862f4.js"><link rel="prefetch" href="/assets/js/22.63b2e386.js"><link rel="prefetch" href="/assets/js/4.9d578fb4.js"><link rel="prefetch" href="/assets/js/5.843f7da0.js"><link rel="prefetch" href="/assets/js/6.6a87126e.js"><link rel="prefetch" href="/assets/js/7.16874472.js"><link rel="prefetch" href="/assets/js/8.3b41ead6.js"><link rel="prefetch" href="/assets/js/9.c1f610c4.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.3b597ec1.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><main><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">开发手册</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/ht-ui/" class="nav-link router-link-active">
+  使用文档
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/ht-ui/" class="nav-link router-link-active">
+  使用文档
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>使用 Useage</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/ht-ui/" aria-current="page" class="sidebar-link">编码规范</a></li><li><a href="/ht-ui/更新日志.html" class="sidebar-link">更新日志 Update</a></li><li><a href="/ht-ui/快速开始.html" class="active sidebar-link">快速开始</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_1、vue2-vue3-的data变化" class="sidebar-link">1、vue2=&gt;vue3 的data变化</a></li><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_2、methods" class="sidebar-link">2、Methods</a></li><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_3、computed" class="sidebar-link">3、computed</a></li><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_4、watch" class="sidebar-link">4、watch</a></li><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_5、props父传子" class="sidebar-link">5、props父传子</a></li><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_6、emit子传父" class="sidebar-link">6、emit子传父</a></li><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_7、路由守卫" class="sidebar-link">7、路由守卫</a></li><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_8、全面拥抱pinia" class="sidebar-link">8、全面拥抱Pinia</a></li><li class="sidebar-sub-header"><a href="/ht-ui/快速开始.html#_9、使用单独的script模块来定义组件名" class="sidebar-link">9、使用单独的script模块来定义组件名</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>基础组件 Basic</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/ht-ui/色彩.html" class="sidebar-link">色彩 Color</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>复合组件 Advanced</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/ht-ui/查询表单组件.html" class="sidebar-link">查询表单组件 ht-form-query</a></li><li><a href="/ht-ui/提交表单组件.html" class="sidebar-link">提交表单组件 ht-form-submit</a></li><li><a href="/ht-ui/查询表格组件.html" class="sidebar-link">查询表格组件 ht-table-query</a></li><li><a href="/ht-ui/拖拽排序按钮组.html" class="sidebar-link">拖拽排序按钮组 ht-drag-checkbox</a></li><li><a href="/ht-ui/表格穿梭框组件.html" class="sidebar-link">表格穿梭框组件 ht-table-transfer</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="开发归纳总结"><a href="#开发归纳总结" class="header-anchor">#</a> 开发归纳总结</h1> <h2 id="_1、vue2-vue3-的data变化"><a href="#_1、vue2-vue3-的data变化" class="header-anchor">#</a> 1、vue2=&gt;vue3 的data变化</h2> <div class="language- extra-class"><pre><code>&lt;script setup&gt;
+  import { reactive, ref, toRefs } from 'vue'
+
+  // ref声明响应式数据，用于声明基本数据类型
+  const name = ref('minchao')
+  // 修改
+  name.value = 'minchangfeng'
+
+  // reactive声明响应式数据，用于声明引用数据类型
+  const state = reactive({
+    name: 'minchao',
+    sex: '男'
+  })
+  // 修改
+  state.name = 'minchangfeng'
+  
+  // 使用toRefs解构
+  const {name, sex} = toRefs(state)
+  或者 ...toRefs(state)
+  // template可直接使用、
+&lt;/script&gt;
+</code></pre></div><h2 id="_2、methods"><a href="#_2、methods" class="header-anchor">#</a> 2、Methods</h2> <div class="language- extra-class"><pre><code>&lt;template&gt;
+  // 调用方法
+  &lt;button @click='changeName'&gt;按钮&lt;/button&gt;  
+&lt;/template&gt;
+
+&lt;script setup&gt;
+  import { reactive } from 'vue'
+
+  const state = reactive({
+    name: 'min'
+  })
+
+  // 声明method方法
+  const changeName = () =&gt; {
+    state.name = 'chao'
+  }  
+&lt;/script&gt;
+</code></pre></div><h2 id="_3、computed"><a href="#_3、computed" class="header-anchor">#</a> 3、computed</h2> <div class="language- extra-class"><pre><code>&lt;script setup&gt;
+  import { computed, ref } from 'vue'
+
+  const count = ref(1)
+
+  // 通过computed获得doubleCount
+  const doubleCount = computed(() =&gt; {
+    return count.value * 2
+  })
+  // 获取
+  console.log(doubleCount.value)
+&lt;/script&gt;
+</code></pre></div><h2 id="_4、watch"><a href="#_4、watch" class="header-anchor">#</a> 4、watch</h2> <div class="language- extra-class"><pre><code>&lt;script setup&gt;
+  import { watch, reactive } from 'vue'
+
+  const state = reactive({
+    count: 1
+  })
+
+  // 声明方法
+  const changeCount = () =&gt; {
+    state.count = state.count * 2
+  }
+
+  // 监听count
+  watch(
+    () =&gt; state.count,
+    (newVal, oldVal) =&gt; {
+      console.log(state.count)
+      console.log(`watch监听变化前的数据：${oldVal}`)
+      console.log(`watch监听变化后的数据：${newVal}`)
+    },
+    {
+      immediate: true, // 立即执行
+      deep: true // 深度监听
+    }
+  )
+&lt;/script&gt;
+</code></pre></div><h2 id="_5、props父传子"><a href="#_5、props父传子" class="header-anchor">#</a> 5、props父传子</h2> <div class="language- extra-class"><pre><code>//父组件
+&lt;template&gt;
+  &lt;child name='Jerry'/&gt;  
+&lt;/template&gt;
+&lt;script setup&gt;
+  // 引入子组件
+  import child from './child.vue'
+&lt;/script&gt;
+
+
+
+// 子组件
+&lt;template&gt;
+  &lt;span&gt;{ {props.name} }&lt;/span&gt;
+  // 可省略【props.】
+  &lt;span&gt;{ {name} }&lt;/span&gt;
+&lt;/template&gt;
+
+&lt;script setup&gt;
+  import { defineProps } from 'vue'
+  defineProps在&lt;script setup&gt;中自动可用，无需导入
+  需在.eslintrc.js文件中【globals】下配置【defineProps: true】
+
+  // 声明props
+  const props = defineProps({
+    name: {
+      type: String,
+      default: ''
+    }
+  })  
+&lt;/script&gt;
+</code></pre></div><h2 id="_6、emit子传父"><a href="#_6、emit子传父" class="header-anchor">#</a> 6、emit子传父</h2> <div class="language- extra-class"><pre><code>  //子组件
+  &lt;template&gt;
+    &lt;span&gt;{ {props.name} }&lt;/span&gt;
+    // 可省略【props.】
+    &lt;span&gt;{ {name} }&lt;/span&gt;
+    &lt;button @click='changeName'&gt;更名&lt;/button&gt;
+  &lt;/template&gt;
+
+  &lt;script setup&gt;
+    // import { defineEmits, defineProps } from 'vue'
+    // defineEmits和defineProps在&lt;script setup&gt;中自动可用，无需导入
+    // 需在.eslintrc.js文件中【globals】下配置【defineEmits: true】、【defineProps: true】
+    
+    // 声明props
+    const props = defineProps({
+      name: {
+        type: String,
+        default: ''
+      }
+    }) 
+    // 声明事件
+    const emit = defineEmits(['updateName'])
+    
+    const changeName = () =&gt; {
+      // 执行
+      emit('updateName', 'Tom')
+    }
+  &lt;/script&gt;
+
+  // 父组件
+  &lt;template&gt;
+    &lt;child :name='state.name' @updateName='updateName'/&gt;  
+  &lt;/template&gt;
+
+  &lt;script setup&gt;
+    import { reactive } from 'vue'
+    // 引入子组件
+    import child from './child.vue'
+
+    const state = reactive({
+      name: 'Jerry'
+    })
+    
+    // 接收子组件触发的方法
+    const updateName = (name) =&gt; {
+      state.name = name
+    }
+  &lt;/script&gt;
+</code></pre></div><h2 id="_7、路由守卫"><a href="#_7、路由守卫" class="header-anchor">#</a> 7、路由守卫</h2> <div class="language- extra-class"><pre><code>&lt;script setup&gt;
+  import { onBeforeRouteLeave, onBeforeRouteUpdate } from 'vue-router'
+  
+  // 添加一个导航守卫，在当前组件将要离开时触发。
+  onBeforeRouteLeave((to, from, next) =&gt; {
+    next()
+  })
+
+  // 添加一个导航守卫，在当前组件更新时触发。
+  // 在当前路由改变，但是该组件被复用时调用。
+  onBeforeRouteUpdate((to, from, next) =&gt; {
+    next()
+  })
+&lt;/script&gt;
+</code></pre></div><h2 id="_8、全面拥抱pinia"><a href="#_8、全面拥抱pinia" class="header-anchor">#</a> 8、全面拥抱Pinia</h2> <p>1、配置store.js</p> <div class="language- extra-class"><pre><code>import { defineStore } from 'pinia'
+
+// defineStore 调用后返回一个函数，调用该函数获得 Store 实体
+export const useStore = defineStore({
+  // id: 必须，在所有 Store 中唯一
+  id: 'globalState',
+  // state: 返回对象的函数
+  state: () =&gt; ({
+    count: 1,
+    data: {
+      name: 'minchao',
+      sex: '男'
+    }
+  }),
+  // getter 第一个参数是 state，是当前的状态，也可以使用 this 获取状态
+  // getter 中也可以访问其他的 getter，或者是其他的 Store
+  getters: {
+    // 通过 state 获取状态
+    doubleCount: (state) =&gt; state.count * 2,
+    // 通过 this 获取状态（注意this指向）
+    tripleCount() {
+      return this.count * 3
+    }
+  },
+  actions: {
+    updateData (newData, count) {
+      // 使用 this 直接修改
+      this.data = { ...newData }
+      this.count = count
+      
+      // 使用 $patch 修改多个值
+      this.$patch({
+        data: { ...newData },
+        count
+      })
+    }
+  }
+})
+</code></pre></div><p>2、 使用 store</p> <div class="language- extra-class"><pre><code>&lt;template&gt;
+// 获取 store 的 state
+&lt;p&gt;姓名：{ {store.data.name} }&lt;/p&gt;
+&lt;p&gt;性别：{ {store.data.sex} }&lt;/p&gt;
+
+// 调用 mutations 方法 / 修改 store
+&lt;button @click='update'&gt;修改用户信息&lt;/button&gt;
+
+  // 获取 getter
+  &lt;p&gt;获取getter：{ {store.doubleCount} }&lt;/p&gt;
+&lt;/template&gt;
+
+&lt;script setup&gt;
+  import { useStore } from '@store/store.js'
+  const store = useStore()
+
+  function update () {
+    // 通过 mutations 定义的方法修改 state
+    store.updateData({ name: 'Tom', sex: '女' })
+
+    // 通过 store 直接修改
+    store.data = { name: 'Tom', sex: '女' }
+
+    // 同时改变多个状态
+    store.$patch((state) =&gt; {
+      state.data = { name: 'Tom', sex: '女' }
+      state.count = 2
+    })
+  }
+&lt;/script&gt;
+
+&lt;style lang=&quot;scss&quot; scoped&gt;
+&lt;/style&gt;
+</code></pre></div><h2 id="_9、使用单独的script模块来定义组件名"><a href="#_9、使用单独的script模块来定义组件名" class="header-anchor">#</a> 9、使用单独的<code>script</code>模块来定义组件名</h2> <div class="language- extra-class"><pre><code>&lt;script&gt;
+  export default {
+    name: 'ComponentName',
+  }
+&lt;/script&gt;
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/ht-ui/更新日志.html" class="prev">
+        更新日志 Update
+      </a></span> <span class="next"><a href="/ht-ui/色彩.html">
+        色彩 Color
+      </a>
+      →
+    </span></p></div> </main></div></main><div class="global-ui"></div></div>
+    <script src="/assets/js/app.9828c174.js" defer></script><script src="/assets/js/3.a7b0917f.js" defer></script><script src="/assets/js/2.67602196.js" defer></script><script src="/assets/js/12.6ac0097d.js" defer></script>
+  </body>
+</html>

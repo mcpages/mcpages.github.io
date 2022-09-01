@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vue3+ts+element plus 后台系统 scc开发指南 | 开发手册</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="mc-ui 网站快速成型工具">
+    
+    <link rel="preload" href="/assets/css/0.styles.3b597ec1.css" as="style"><link rel="preload" href="/assets/js/app.9828c174.js" as="script"><link rel="preload" href="/assets/js/3.a7b0917f.js" as="script"><link rel="preload" href="/assets/js/2.67602196.js" as="script"><link rel="preload" href="/assets/js/8.3b41ead6.js" as="script"><link rel="prefetch" href="/assets/js/10.7f1b01ac.js"><link rel="prefetch" href="/assets/js/11.2003b1bf.js"><link rel="prefetch" href="/assets/js/12.6ac0097d.js"><link rel="prefetch" href="/assets/js/13.59d1171f.js"><link rel="prefetch" href="/assets/js/14.c873d78e.js"><link rel="prefetch" href="/assets/js/15.f022dbcc.js"><link rel="prefetch" href="/assets/js/16.91c4f114.js"><link rel="prefetch" href="/assets/js/17.59786baa.js"><link rel="prefetch" href="/assets/js/18.fc9e6949.js"><link rel="prefetch" href="/assets/js/19.1eae8e0f.js"><link rel="prefetch" href="/assets/js/20.b2e5353c.js"><link rel="prefetch" href="/assets/js/21.362862f4.js"><link rel="prefetch" href="/assets/js/22.63b2e386.js"><link rel="prefetch" href="/assets/js/4.9d578fb4.js"><link rel="prefetch" href="/assets/js/5.843f7da0.js"><link rel="prefetch" href="/assets/js/6.6a87126e.js"><link rel="prefetch" href="/assets/js/7.16874472.js"><link rel="prefetch" href="/assets/js/9.c1f610c4.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.3b597ec1.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><main><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">开发手册</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  首页
+</a></div><div class="nav-item"><a href="/ht-ui/" class="nav-link">
+  使用文档
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  首页
+</a></div><div class="nav-item"><a href="/ht-ui/" class="nav-link">
+  使用文档
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vue3-ts-element-plus-后台系统-scc开发指南"><a href="#vue3-ts-element-plus-后台系统-scc开发指南" class="header-anchor">#</a> vue3+ts+element plus 后台系统 scc开发指南</h1> <h2 id="目录结构"><a href="#目录结构" class="header-anchor">#</a> 目录结构</h2> <div class="language- extra-class"><pre><code>|____README.md
+|____package.json
+|____library   // 全局库
+| |____components  //全局组件 
+| |____layouts  // 布局组件
+| |____plugins  // 全局插件
+| |____styles  // 全局样式
+|____mock     // mock数据 dev已对接测试环境
+|____src
+|____types  //  类型定义
+|____src
+| |____utils    //  方法库
+| |____api    // 接口分类
+| |____assets    // 静态资源
+| |____config    // 配置字段集合 包含cli配置|通用配置|主题配置|网络配置导出
+| |____i18n    // 国际化配置，暂时未使用
+| |____icon    // 自定义图标库
+| |____plugins    // 自定义插件
+| |____router    // 路由
+| |____store    // 状态管理 请自定义模块
+| |____views      // 页面集合
+| | |____modules1   页面模块
+| | | |____index.vue  // 页面模块首页
+| | | |____components // 模块组件库
+| | | |____page1    //  页面1
+| | | | |____components  // 页面1的单独组件
+| | | |____page2
+| | |____modules1
+| | | |____page1.vue
+| | | |____page2.vue
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div></main><div class="global-ui"></div></div>
+    <script src="/assets/js/app.9828c174.js" defer></script><script src="/assets/js/3.a7b0917f.js" defer></script><script src="/assets/js/2.67602196.js" defer></script><script src="/assets/js/8.3b41ead6.js" defer></script>
+  </body>
+</html>
